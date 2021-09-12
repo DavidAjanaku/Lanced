@@ -1,26 +1,19 @@
 {
-  "name": "lanceproject",
+  "name": "newlancerpoint",
   "version": "1.0.0",
-  "description": "lancer project jason",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "wp-watch": "node-sass sass/main.scss css/style.css -w",
+    "wp-server": "live-server",
+    "wp-start": "npm-run-all --parallel wp-watch wp-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LancersPoint/lanceProject.git"
-  },
-  "author": "coldshot",
+  "author": "Celestine",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/LancersPoint/lanceProject/issues"
-  },
-  "homepage": "https://github.com/LancersPoint/lanceProject#readme",
   "devDependencies": {
-    "node-sass": "^5.0.0"
-  },
-  "dependencies": {
-    "chart.js": "^3.2.0",
-    "jquery": "^3.6.0"
+    "live-server": "^1.2.1",
+    "node-sass": "^6.0.1",
+    "npm-run-all": "^4.1.5"
   }
 }

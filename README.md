@@ -1,2 +1,0 @@
-# lanceProject
-Freelance webapp
